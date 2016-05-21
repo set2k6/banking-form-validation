@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Bank of JG Loan Application</title>
+  <link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+
+<body>
+
+  <h1>Bank Loan Form</h1>
+
+    <fieldset>
+      <legend>Your Information</legend>
+      <form>
+        <input placeholder="First Name" type="text" name="name">
+      </form>
+
+      <form>
+        <input placeholder="Middle Initial" type="text" name="name">
+      </form>
+
+      <form>
+        <input placeholder="Last Name" type="text" name="name">
+      </form>
+
+      <form>
+        <input placeholder="Address" type="text" name="name">
+      </form>
+
+      <form>
+        <input placeholder="Occupation" type="text" name="name">
+      </form>
+
+      <form>
+        <input placeholder="Employer" type="text" name="name">
+      </form>
+
+      <form>
+       <input placeholder="Employer Address" type="text" name="name">
+      </form>
+    </fieldset>
+
+
+    <fieldset>
+    <form>
+      <legend>Loan Type</legend>
+      <label>Choose Loan Type:</label>
+      <input placeholder="Choose Loan Type" list="loans" name="myLoans"/>
+            <datalist id="loans">
+              <option value="Commercial">
+              <option value="Real Estate">
+              <option value="Personal">
+              <option value="Mortgage">
+            </datalist>
+            </form>
+    </fieldset>
+
+    <fieldset>
+    <form>
+      <legend>Loan Amount Requested</legend>
+      <input type="number" min="1000" max="100000" step="500">
+      </form>
+    </fieldset>
+
+    <fieldset>
+    <form>
+      <legend>Length of Loan?</legend>
+      <p><label for="ll1"><input type="radio" name="ll" id="ll1" value="5"> 5 years</label></p>
+      <p><label for="ll2"><input type="radio" name="ll" id="ll2" value="15"> 15 years</label></p>
+      <p><label for="ll3"><input type="radio" name="ll" id="ll3" value="30"> 30 years</label></p>
+      </form>
+    </fieldset>
+
+    <fieldset>
+    <form>
+      <legend>Special Conditions?</legend>
+      <p><label for="sc1"><input type="checkbox" name="sc" id="sc1" value="down"> I have a down payment</label></p>
+      <p><label for="sc2"><input type="checkbox" name="sc" id="sc2" value="osr"> Out-of-state resident</label></p>
+      <p><label for="sc3"><input type="checkbox" name="sc" id="sc3" value="ring"> Married</label></p>
+      <p><label for="sc4"><input type="checkbox" name="sc" id="sc4" value="cos"> Loan will be co-signed</label></p>
+      </form>
+    </fieldset>
+
+    <fieldset>
+    <form>
+      <legend>Additional Comments</legend>
+      <textarea cols="35" rows="10"></textarea>
+    </form>
+    <fieldset>
+
+    <form>
+      <legend>Your E-Mail Address</legend>
+     <input placeholder="e-mail in this field" type="email" title="Please, provide an e-mail" required/>
+     </form>
+    </fieldset>
+
+    <fieldset>
+    <form>
+      <legend>Telephone Number</legend>
+      <input placeholder="Your Telephone Number" type="tel" required/>
+      </form>
+    </fieldset>
+
+    <fieldset>
+    <form>
+      <legend>Applicant LinkedIn url</legend>
+      <input placeholder="Your LinkedIn Profile url" type="url" required/>
+      </form>
+    </fieldset>
+
+
+</body>
+</html>
+
